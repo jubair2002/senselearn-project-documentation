@@ -1,0 +1,82 @@
+site_name: SenseLearn Learning Hub Documentation
+site_description: Documentation for SenseLearn Learning Hub - A Flask-based learning platform
+site_author: SenseLearn Team
+repo_url: https://github.com/jubair2002/senseLearn-learning-hub
+repo_name: jubair2002/senseLearn-learning-hub
+
+docs_dir: .
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.top
+    - navigation.path
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tooltips
+  icon:
+    previous: material/arrow-left
+    next: material/arrow-right
+    repo: material/github
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Problem Statement: problem-statement.md
+  - Getting Started:
+    - Quick Start: getting-started/quick-start.md
+    - Installation: getting-started/installation.md
+    - Configuration: getting-started/configuration.md
+  - Features:
+    - Student Features: features/student.md
+    - Tutor Features: features/tutor.md
+    - Admin Features: features/admin.md
+    - Course Management: features/course-management.md
+    - Quiz System: features/quiz.md
+    - Chatbot: features/chatbot.md
+    - Notifications: features/notifications.md
+  - Setup:
+    - Development Setup: development/setup.md
+    - Deployment: development/deployment.md
+  - API Reference:
+    - Overview: api/index.md
+    - Authentication API: api/authentication.md
+    - Student API: api/student.md
+    - Tutor API: api/tutor.md
+    - Admin API: api/admin.md
+  - Conclusion: conclusion.md
+  - Team Contribution: contribution.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - mkdocstrings
