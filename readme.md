@@ -184,7 +184,7 @@ Our team followed an agile, iterative approach:
 
 ##  Acknowledgments
 
-We would like to express our sincere gratitude to **S M Jishanul Islam Sir** for His invaluable guidance, continuous support, and constructive feedback throughout the development of this project. His expertise and mentorship have been instrumental in shaping both the technical implementation and documentation quality.
+We would like to express our sincere gratitude to **S M Jishanul Islam Sir** (https://github.com/S-M-J-I) for His invaluable guidance, continuous support, and constructive feedback throughout the development of this project. His expertise and mentorship have been instrumental in shaping both the technical implementation and documentation quality.
 
 This documentation has been prepared as part of an academic and practical learning journey, reflecting the knowledge and skills acquired under His supervision. The experience gained through this project will serve as a foundation for future endeavors in software development and technical writing.
 
